@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UITestPOPAddin", "UITestPOPAddin\UITestPOPAddin.csproj", "{1089E959-7F08-4AC9-AE89-7D4D9D5BAC19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1089E959-7F08-4AC9-AE89-7D4D9D5BAC19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1089E959-7F08-4AC9-AE89-7D4D9D5BAC19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1089E959-7F08-4AC9-AE89-7D4D9D5BAC19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1089E959-7F08-4AC9-AE89-7D4D9D5BAC19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

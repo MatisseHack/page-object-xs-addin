@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Template>
+    <TemplateConfiguration>
+        <_Name>Page File Template</_Name>
+		<Icon>md-class-file</Icon>
+		<_Category>Page Object</_Category>
+		<_Description>Creates a page template.</_Description>
+		<DefaultFilename>NewPage</DefaultFilename>
+		<!--<ProjectType>UITest</ProjectType>-->
+    </TemplateConfiguration>
+    <TemplateFiles>
+		<File DefaultExtension=".cs" src="PageFileTemplate.cs" />
+    </TemplateFiles>
+</Template>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Template>
+    <TemplateConfiguration>
+        <_Name>Test File Template</_Name>
+		<Icon>md-class-file</Icon>
+        <_Category>Page Object</_Category>
+        <_Description>Creates a test fixture template.</_Description>
+        <DefaultFilename>NewTests</DefaultFilename>
+        <!--<ProjectType>UITest</ProjectType>-->
+    </TemplateConfiguration>
+    <TemplateFiles>
+		<File DefaultExtension=".cs" src="TestFileTemplate.cs" />
+    </TemplateFiles>
+</Template>

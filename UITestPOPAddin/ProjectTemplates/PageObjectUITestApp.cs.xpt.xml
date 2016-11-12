@@ -1,0 +1,65 @@
+﻿<?xml version="1.0"?>
+<Template>
+	<TemplateConfiguration>
+		<_Name>Page Object UI Test App</_Name>
+		<Category>multiplat/tests/testcloud</Category>
+		<Icon>md-crossplatform-test-project</Icon>
+		<LanguageName>C#</LanguageName>
+		<GroupId>page-object-addin</GroupId>
+		<_Description>Creates a UI testing project that uses UITeset and the page object pattern</_Description>
+	</TemplateConfiguration>
+	<Actions>
+	</Actions>
+	<Combine
+		name="${ProjectName}"
+		directory=".">
+		<Options>
+			<StartupProject>${ProjectName}</StartupProject>
+		</Options>
+		<Actions>
+			<Open
+				filename="Tests/Tests.cs" />
+			<Open
+				filename="Pages/FirstPage.cs" />
+		</Actions>
+		<Project
+			name="${ProjectName}"
+			directory=".">
+			<Options
+				Target="Library" />
+			<References>
+			</References>
+			<Packages>
+				<Package
+					ID="NUnit"
+					Version="2.6.4" />
+				<Package
+					ID="Xamarin.UITest"
+					Version="2.0.0" />
+			</Packages>
+			<Files>
+				<File
+					name="AbstractSetup.cs"
+					src="AbstractSetupTemplate.cs" />
+				<File
+					name="AppInitializer.cs"
+					src="AppInitializerTemplate.cs" />
+				<File
+					name="BasePage.cs"
+					src="BasePageTemplate.cs" />
+				<Directory
+					name="Pages">
+					<File
+						name="FirstPage.cs"
+						src="FirstPageTemplate.cs" />
+				</Directory>
+				<Directory
+					name="Tests">
+					<File
+						name="Tests.cs"
+						src="TestsTemplate.cs" />
+				</Directory>
+			</Files>
+		</Project>
+	</Combine>
+</Template>

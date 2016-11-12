@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionModel>
+    <!--<Extension path="/MonoDevelop/Ide/TemplateImages">
+        <Image id="prism-project-xamarin-forms" resource="images.prism-project-xamarin-forms.png" />
+    </Extension>-->
+
+    <Extension path="/MonoDevelop/Ide/FileTemplates">
+        <FileTemplate id="PageFileTemplate"
+                      file="FileTemplates/PageFileTemplate.xft.xml" />
+        <FileTemplate id="TestFileTemplate"
+                      file="FileTemplates/TestFileTemplate.xft.xml" />
+    </Extension>
+
+    <Extension path = "/MonoDevelop/Ide/ProjectTemplates">
+        <ProjectTemplate id   = "PageObjectUITestApp"
+                         file = "ProjectTemplates/PageObjectUITestApp.cs.xpt.xml" />
+    </Extension>
+
+    <Extension path="/MonoDevelop/Ide/CodeTemplates">
+        <CodeTemplate file="CodeTemplates/PageObjectCodeTemplates.xml" />
+    </Extension>
+</ExtensionModel>

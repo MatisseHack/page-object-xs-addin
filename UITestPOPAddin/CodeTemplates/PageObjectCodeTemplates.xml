@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeTemplates
+	version="3.0">
+	<CodeTemplate
+		version="2.0">
+		<Header>
+			<_Group>C#</_Group>
+			<MimeType>text/x-csharp</MimeType>
+			<Shortcut>test</Shortcut>
+			<_Description>Add a new NUnit test method</_Description>
+			<TemplateType>Expansion</TemplateType>
+		</Header>
+		<Variables>
+			<Variable
+				name="name">
+				<Default>TestName</Default>
+			</Variable>
+		</Variables>
+		<Code><![CDATA[[Test]
+public void $name$()
+{
+    $end$
+}]]></Code>
+	</CodeTemplate>
+	<CodeTemplate
+		version="2.0">
+		<Header>
+			<_Group>C#</_Group>
+			<MimeType>text/x-csharp</MimeType>
+			<Shortcut>xx</Shortcut>
+			<_Description>Quick lambda</_Description>
+			<TemplateType>Expansion</TemplateType>
+		</Header>
+		<Variables />
+		<Code><![CDATA[x => x]]></Code>
+	</CodeTemplate>
+	<CodeTemplate
+		version="2.0">
+		<Header>
+			<_Group>C#</_Group>
+			<MimeType>text/x-csharp</MimeType>
+			<Shortcut>qry</Shortcut>
+			<_Description>Template for new Query field</_Description>
+			<TemplateType>Expansion</TemplateType>
+		</Header>
+		<Variables>
+			<Variable
+				name="name">
+				<Default>queryName</Default>
+			</Variable>
+		</Variables>
+		<Code><![CDATA[readonly Query $name$;]]></Code>
+	</CodeTemplate>
+	<CodeTemplate
+		version="2.0">
+		<Header>
+			<_Group>C#</_Group>
+			<MimeType>text/x-csharp</MimeType>
+			<Shortcut>fqry</Shortcut>
+			<_Description>Template for new Func Query field</_Description>
+			<TemplateType>Expansion</TemplateType>
+		</Header>
+		<Variables>
+			<Variable
+				name="name">
+				<Default>queryName</Default>
+			</Variable>
+			<Variable
+				name="inputType">
+				<Default>object</Default>
+			</Variable>
+		</Variables>
+		<Code><![CDATA[readonly Func<$inputType$, Query> $name$;]]></Code>
+	</CodeTemplate>
+	<CodeTemplate
+		version="2.0">
+		<Header>
+			<_Group>C#</_Group>
+			<MimeType>text/x-csharp</MimeType>
+			<Shortcut>uqry</Shortcut>
+			<_Description>Template for using Query statement</_Description>
+			<TemplateType>Expansion</TemplateType>
+		</Header>
+		<Variables />
+		<Code><![CDATA[using Query = System.Func<Xamarin.UITest.Queries.AppQuery, Xamarin.UITest.Queries.AppQuery>;]]></Code>
+	</CodeTemplate>
+</CodeTemplates>
