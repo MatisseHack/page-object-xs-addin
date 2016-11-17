@@ -12,6 +12,3 @@ using Mono.Addins.Description;
 [assembly: AddinCategory("IDE extensions")]
 [assembly: AddinDescription("A Xamarin Studio add-in to facilitate using the page object pattern with UITest")]
 [assembly: AddinAuthor("Matisse Hack")]
-
-[assembly: AddinDependency("::MonoDevelop.Core", MonoDevelop.BuildInfo.Version)]
-[assembly: AddinDependency("::MonoDevelop.Ide", MonoDevelop.BuildInfo.Version)]
