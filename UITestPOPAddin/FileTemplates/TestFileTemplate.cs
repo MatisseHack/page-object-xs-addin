@@ -4,7 +4,7 @@ using Xamarin.UITest;
 
 namespace ${Namespace}
 {
-    public class ${Name} : AbstractSetup
+    public class ${Name} : BaseTestFixture
     {
         public ${Name}(Platform platform)
             : base(platform)

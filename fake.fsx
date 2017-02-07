@@ -7,7 +7,7 @@ let releaseDir = currentDirectory + "/release/"
 let projects = [currentDirectory + "/UITestPOPAddin/UITestPOPAddin.csproj"]
 
 Target "Clean" (fun _ ->
-    CleanDirs [buildDir; releaseDir]
+    CleanDirs [buildDir]
 )
 
 Target "Build" (fun _ ->

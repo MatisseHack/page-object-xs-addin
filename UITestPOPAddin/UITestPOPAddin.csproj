@@ -45,9 +45,6 @@
     <AddinFile Include="FileTemplates\PageFileTemplate.cs" />
     <AddinFile Include="FileTemplates\TestFileTemplate.cs" />
     <AddinFile Include="CodeTemplates\PageObjectCodeTemplates.xml" />
-    <AddinFile Include="ProjectTemplates\BasePageTemplate.cs" />
-    <AddinFile Include="ProjectTemplates\AppInitializerTemplate.cs" />
-    <AddinFile Include="ProjectTemplates\AbstractSetupTemplate.cs" />
     <AddinFile Include="ProjectTemplates\TestsTemplate.cs" />
     <AddinFile Include="ProjectTemplates\FirstPageTemplate.cs" />
   </ItemGroup>

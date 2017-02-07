@@ -5,7 +5,7 @@ using Mono.Addins.Description;
 [assembly: Addin(
     "UITestPOPAddin",
     Namespace = "UITestPOPAddin",
-    Version = "0.1.0"
+    Version = "1.0.0"
 )]
 
 [assembly: AddinName("UITest Page Object Add-In")]

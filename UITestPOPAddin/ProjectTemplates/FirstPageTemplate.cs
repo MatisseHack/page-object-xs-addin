@@ -8,8 +8,13 @@ namespace ${Namespace}
 {
     public class FirstPage : BasePage
     {
+        protected override PlatformQuery Trait => new PlatformQuery
+        {
+            Android = null,
+            iOS = null
+        };
+
         public FirstPage()
-            : base(null, null)
         {
             if (OnAndroid)
             {

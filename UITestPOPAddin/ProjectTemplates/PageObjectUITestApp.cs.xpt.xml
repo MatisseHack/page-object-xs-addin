@@ -36,17 +36,11 @@
 				<Package
 					ID="Xamarin.UITest"
 					Version="2.0.0" />
+				<Package
+					ID="Xamarin.UITest.POP"
+					Version="1.0.0" />
 			</Packages>
 			<Files>
-				<File
-					name="AbstractSetup.cs"
-					src="AbstractSetupTemplate.cs" />
-				<File
-					name="AppInitializer.cs"
-					src="AppInitializerTemplate.cs" />
-				<File
-					name="BasePage.cs"
-					src="BasePageTemplate.cs" />
 				<Directory
 					name="Pages">
 					<File
